@@ -9,11 +9,17 @@
   ],
   "type": "microweber-module",
   "target-dir": "test-module-with-deps",
+  "autoload": {
+    "psr-0": {
+      "TestModuleWithAutoLoad": "src/"
+    }
+  },
   "require": {
     "j4mie/idiorm": "*",
-    "microweber-templates/dream": "*",
-    "microweber-templates/new-world": "*",
-    "microweber-templates/liteness": "*",
-    "microweber/template-shopmag": "*"
+    "microweber-templates/dream": "dev-master",
+    "microweber-modules/calendar": "dev-master",
+    "microweber-templates/new-world": "dev-master",
+    "microweber-templates/liteness": "dev-master",
+    "microweber-templates/shopmag": "dev-master"
   }
 }
