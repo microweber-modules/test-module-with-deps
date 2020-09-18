@@ -17,9 +17,10 @@
   "require": {
     "j4mie/idiorm": "*",
     "microweber-templates/dream": "*",
+    "microweber-modules/bxslider": "*",
     "microweber-modules/calendar": "*",
     "microweber-templates/new-world": "*",
     "microweber-templates/liteness": "*",
-    "microweber-templates/shopmag": "*"
+    "microweber/template-shopmag": "*"
   }
 }
