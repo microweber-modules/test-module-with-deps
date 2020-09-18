@@ -11,9 +11,9 @@
   "target-dir": "test-module-with-deps",
   "require": {
     "j4mie/idiorm": "*",
-    "microweber-templates/dream": "dev-master",
-    "microweber-templates/new-world": "dev-master",
-    "microweber-templates/liteness": "dev-master",
-    "microweber/template-shopmag": "dev-master"
+    "microweber-templates/dream": "*",
+    "microweber-templates/new-world": "*",
+    "microweber-templates/liteness": "*",
+    "microweber/template-shopmag": "*"
   }
 }
